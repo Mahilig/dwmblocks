@@ -1,0 +1,11 @@
+#!/usr/bin/zsh
+
+icon=""
+
+
+while true
+do
+    now_playing="$(spotifyctl status --format '%artist%: %title%')"
+    printf " %s %s \\n" "$icon " "$now_playing"
+#    sleep 1
+done
