@@ -8,4 +8,9 @@ case $BLOCK_BUTTON in
 	6) "$TERMINAL" -e "$EDITOR" "$0" ;;
 esac
 
-sensors | awk '/Core 0/ {print "🌡" $3}'
+
+# Desktop
+sensors | awk '/Tdie/ {print "🌡 " $2}'
+
+# Laptop
+#sensors | awk '/Core 0/ {print "🌡 "$32}'
