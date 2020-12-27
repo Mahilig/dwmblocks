@@ -10,7 +10,7 @@ esac
 
 
 # Desktop
-sensors | awk '/Tdie/ {print "🌡 " $2}'
+sensors | awk '/Tdie/ {print "🌡" $2}'
 
 # Laptop
-#sensors | awk '/Core 0/ {print "🌡 "$32}'
+#sensors | awk '/Core 0/ {print "🌡 "$3}'
