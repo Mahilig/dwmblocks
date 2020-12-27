@@ -2,9 +2,9 @@
 static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
 	{"",      "dwmspotify",					1,		0},
-	{"",      "sb-cpu",	            		5,		18},
-	{"",      "sb-battery",            		5,	 	3},
-	{"",      "sb-clock",			       60,		1},
+	{"",      "sb-cpu",	            		5,		0},
+	{"",      "sb-battery",            		5,	 	0},
+	{"",      "sb-clock",			       60,		0},
 	{"",      "sb-volume",		       		1,		0},
 
 };
