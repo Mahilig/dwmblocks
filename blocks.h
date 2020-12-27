@@ -3,7 +3,7 @@ static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
 	{"",      "dwmspotify",					1,		0},
 	{"",      "sb-cpu",	            		5,		0},
-	{"",      "sb-battery",            		5,	 	0},
+//	{"",      "sb-battery",            		5,	 	0},     // no battery on desktop
 	{"",      "sb-clock",			       60,		0},
 	{"",      "sb-volume",		       		1,		0},
 
