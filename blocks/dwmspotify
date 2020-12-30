@@ -1,6 +1,6 @@
 #!/usr/bin/zsh
 
-icon=""
+icon="🎵"
 
 
 while true
