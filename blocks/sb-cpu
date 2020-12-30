@@ -11,6 +11,3 @@ esac
 
 # Desktop
 sensors | awk '/Tdie/ {print "🌡" $2}'
-
-# Laptop
-#sensors | awk '/Core 0/ {print "🌡 "$3}'
